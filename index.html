@@ -100,14 +100,15 @@ text-align: center;
 
 </script><tw-passagedata pid="1" name="Testez" tags="" position="119,55">&lt;span class=&quot;larger&quot;&gt;Bienvenue!&lt;/span&gt;
 
-Selon votre âge, votre sexe, vos affinités politiques ou encore votre profession, votre degré de représentativité politique varie. Découvrez pour chacun de ces critères, quelles sont vos chances d&#39;être bien représenté-e à la Chambre du peuple. À chaque étape, vous obtiendrez des informations sur vous et sur nos élus-es. 
+Selon votre âge, votre sexe, vos affinités politiques ou encore votre profession, votre degré de représentativité politique varie. Découvrez pour chacun de ces critères, quelles sont vos chances d&#39;être bien représenté-e à la Chambre du peuple. À chaque étape, vous obtiendrez des informations sur vous et sur nos élu-e-s. 
 
 ----
 Tout d&#39;abord, quel est votre sexe?
 
+* [[sexe indéterminé]]
 * [[homme]]
 * [[femme]]
-* [[sexe indéterminé]]</tw-passagedata>
+</tw-passagedata>
 <tw-passagedata pid="2" name="homme" tags="" position="120,205">(set: $sexe to &quot;homme&quot;) &lt;span class=&quot;larger&quot;&gt;Vous êtes un (print: $sexe)&lt;/span&gt;.
 
 
@@ -135,7 +136,7 @@ Indiquez maintenant votre tranche d&#39;âge:
 * [[+72]]</tw-passagedata>
 <tw-passagedata pid="4" name="sexe indéterminé" tags="" position="420,205">(set: $sexe to &quot;sexe indéterminé&quot;) &lt;span class=&quot;larger&quot;&gt;Vous êtes de (print: $sexe)&lt;/span&gt;.
 
-Hermaphrodite, transgenre ou intersexe. Quel que soit le qualificatif que vous, ou d’autres vous attribuent, &lt;strong&gt;aucun élu&lt;/strong&gt; parlementaire ne vous représente. Et pourtant, une étude a défini qu’une personne sur 200 ne s’identifierait pas à son « sexe de naissance » en Suisse. Ainsi, quelques 40&#39;000 personnes seraient concernées.
+Hermaphrodite, transgenre ou intersexe. Quel que soit le qualificatif que vous, ou d’autres vous attribuent, &lt;strong&gt;aucun-e élu-e&lt;/strong&gt; parlementaire ne vous représente. Et pourtant, une étude a défini qu’une personne sur 200 ne s’identifierait pas à son « sexe de naissance ». En Suisse, quelques 40&#39;000 personnes seraient donc concernées.
 
 ----
 Indiquez maintenant votre tranche d&#39;âge:
@@ -154,20 +155,20 @@ Si vous n’avez pas encore 18 ans, cela signifie que ne pouvez pas être repré
 ----
 Parmi les catégories professionnelles suivantes, à laquelle appartenez-vous?
 
-* [[entrepreneur-euse/secteur privé]]
-* [[domaine juridique]]
-* [[enseignement]]
-* [[médecin]]
 * [[technique et informatique]]
-* [[médias, communication, RP]]
-* [[ouvrier-ère, artisan-e]] 
-* [[activité politique]]
-* [[professeur-e d’université]]
-* [[agriculteur-trice]]
 * [[retraité-e]]
-* [[étudiant-e]]
 * [[sans occupation]]
+* [[professeur-e d’université]]
+* [[ouvrier-ère, artisan-e]] 
+* [[médias, communication, RP]]
+* [[médecin]]
+* [[domaine juridique]]
+* [[étudiant-e]]
+* [[entrepreneur-euse/secteur privé]]
+* [[enseignement]]
 * [[autre]]
+* [[agriculteur-trice]]
+* [[activité politique]]
 </tw-passagedata>
 <tw-passagedata pid="6" name="médecin" tags="" position="932,503">(set: $profession to &quot;médecin&quot;)
 
@@ -175,15 +176,15 @@ Parmi les catégories professionnelles suivantes, à laquelle appartenez-vous?
 
 &lt;iframe width=&quot;600&quot; height=&quot;371&quot; style=&quot;border:1px solid lightgrey;&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/1x593UZb6rs_yhhj1qVC_jjeEXYUIi6ewkXVajsxZgNM/pubchart?oid=246466363&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
 
-En comparaison de leur nombre au sein de la population (0.44%), les médecins sont &lt;span class=&quot;envaleur&quot;&gt;bien représentés-es au Conseil national (2,5%)&lt;/span&gt;.
+En comparaison à leur nombre au sein de la population (0.44%), les médecins sont &lt;span class=&quot;envaleur&quot;&gt;bien représenté-e-s au Conseil national (2,5%)&lt;/span&gt;.
 
 ----
 Parlons un peu de politique. De quel parti vous sentez-vous le plus proche?
 
+* [[UDC]] Union démocratique du centre
+* [[PS]] Parti socialiste
 * [[PLR]] Parti libéral-radical
 * [[PDC]] Parti démocrate-chrétien 
-* [[PS]] Parti socialiste
-* [[UDC]] Union démocratique du centre
 * [[Les Verts]]
 * [[autres]]</tw-passagedata>
 <tw-passagedata pid="7" name="sans occupation" tags="" position="1558,508">(set: $profession to &quot;sans occupation&quot;)
@@ -192,15 +193,15 @@ Parlons un peu de politique. De quel parti vous sentez-vous le plus proche?
 
 &lt;iframe width=&quot;600&quot; height=&quot;371&quot; style=&quot;border:1px solid lightgrey;&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/1x593UZb6rs_yhhj1qVC_jjeEXYUIi6ewkXVajsxZgNM/pubchart?oid=683804755&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
 
-Malgré la défense des valeurs familiales, aucun PDC ne reste à la maison parallèlement à son activité parlementaire. Par ailleurs, cette catégorie serait-elle &lt;span class=&quot;envaleur&quot;&gt;le point de ralliement entre socialistes et membres de l&#39;UDC?&lt;/span&gt;
+Malgré la défense des valeurs familiales, aucun PDC ne reste à la maison parallèlement à son activité parlementaire. Par contre, cette catégorie semble concerner beaucoup de socialistes et d&#39;UDC. Serait-elle &lt;span class=&quot;envaleur&quot;&gt;le point de ralliement entre ces deux partis habituellement opposés?&lt;/span&gt;
 
 -----
 Parlons un peu de politique. De quel parti vous sentez-vous le plus proche?
 
+* [[UDC]] Union démocratique du centre
+* [[PS]] Parti socialiste
 * [[PLR]] Parti libéral-radical
 * [[PDC]] Parti démocrate-chrétien 
-* [[PS]] Parti socialiste
-* [[UDC]] Union démocratique du centre
 * [[Les Verts]]
 * [[autres]]</tw-passagedata>
 <tw-passagedata pid="8" name="autre" tags="" position="1683,508">(set: $profession to &quot;autre&quot;)
@@ -209,15 +210,15 @@ Parlons un peu de politique. De quel parti vous sentez-vous le plus proche?
 
 &lt;iframe width=&quot;600&quot; height=&quot;371&quot; style=&quot;border:1px solid lightgrey;&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/1x593UZb6rs_yhhj1qVC_jjeEXYUIi6ewkXVajsxZgNM/pubchart?oid=822225299&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
 
-Certains métiers sont plus inclassables que d&#39;autres. Champion-nes des professions originales? les socialistes, dont &lt;span class=&quot;envaleur&quot;&gt;un membre sur sept s&#39;inscrit dans cette catégorie.&lt;/span&gt;
+Certains métiers sont plus inclassables que d&#39;autres. Champion-ne-s des professions originales? Les socialistes, dont &lt;span class=&quot;envaleur&quot;&gt;un membre sur sept s&#39;inscrit dans cette catégorie.&lt;/span&gt;
 
 ----
 Parlons un peu de politique. De quel parti vous sentez-vous le plus proche?
 
+* [[UDC]] Union démocratique du centre
+* [[PS]] Parti socialiste
 * [[PLR]] Parti libéral-radical
 * [[PDC]] Parti démocrate-chrétien 
-* [[PS]] Parti socialiste
-* [[UDC]] Union démocratique du centre
 * [[Les Verts]]
 * [[autres]]</tw-passagedata>
 <tw-passagedata pid="9" name="PLR" tags="" position="120,655">(set: $appartenance to &quot;PLR&quot;)
@@ -234,21 +235,21 @@ Vos idées libérales vous placent au sein du troisième parti de Suisse. Vous �
 
 &lt;span class=&quot;larger&quot;&gt;Vous votez donc souvent comme le PDC.&lt;/span&gt;
 
-Avec des idées plutôt centristes, tantôt à gauche, tantôt à droite, vous vous ralliez au Parti démocrate-chrétien (PDC), quatrième parti de Suisse. Mais depuis 1991, le PDC perd progressivement des sièges. Actuellement, le parti orange totalise 27 élus-es sous la coupole, dont un tiers sont des femmes. Et la relève dans tout ça ? Au niveau national, elle est limitée. Car environ 55% des élus PDC ont plus de 54 ans. 
+Avec des idées plutôt centristes, tantôt à gauche, tantôt à droite, vous vous ralliez au Parti démocrate-chrétien (PDC), quatrième parti de Suisse. Mais depuis 1991, le PDC perd progressivement des sièges. Actuellement, le parti orange totalise 27 élu-e-s sous la coupole, dont un tiers sont des femmes. Et la relève dans tout ça ? Au niveau national, elle est limitée. Car environ 55% des élus PDC ont plus de 54 ans. 
 
 &lt;button class=&quot;action-button&quot;&gt;[[Suivant|conclure]]&lt;/button&gt;</tw-passagedata>
 <tw-passagedata pid="11" name="PS" tags="" position="438,656">(set: $appartenance to &quot;PS&quot;)
 
 &lt;span class=&quot;larger&quot;&gt;Vous votez donc souvent comme le PS.&lt;/span&gt;
 
-Vous êtes plutôt de gauche. Vous vous ralliez donc naturellement au Parti socialiste (PS), second parti de Suisse qui réunit 43 parlementaires. Au Conseil National, le PS est aussi le parti le plus jeune, avec presque 2 élus sur 10 ayant moins de 35 ans. Mais surtout, il est le seul à réunir plus de femmes que d’hommes, avec 24 membres de sexe féminin.
+Vous êtes plutôt de gauche. Vous vous ralliez donc naturellement au Parti socialiste (PS), second parti de Suisse qui réunit 43 parlementaires. Au Conseil National, le PS est aussi le parti le plus jeune, avec presque 2 élu-e-s sur 10 ayant moins de 35 ans. Mais surtout, il est le seul à réunir plus de femmes que d’hommes, avec 24 membres de sexe féminin.
 
 &lt;button class=&quot;action-button&quot;&gt;[[Suivant|conclure]]&lt;/button&gt;</tw-passagedata>
 <tw-passagedata pid="12" name="UDC" tags="" position="570,655">(set: $appartenance to &quot;UDC&quot;)
 
 &lt;span class=&quot;larger&quot;&gt;Vous votez donc souvent comme l&#39;UDC.&lt;/span&gt;
 
-Si vos affinités politiques se rapprochent de celles du premier parti de Suisse, vous voilà plutôt bien loti-e. Ce parti comprend près de 30% des élus, soit 65 parlementaires.
+Si vos affinités politiques se rapprochent de celles du premier parti de Suisse, vous voilà plutôt bien loti-e. Ce parti comprend près de 30% des élu-e-s, soit 65 parlementaires.
 Il ne manquerait plus que vous soyez un homme, dans la cinquantaine, et vous voilà nationalement super-représenté. Plus de 80% des élus UDC sont des hommes, et près d’un UDC sur deux a plus de 53 ans.
 
 &lt;button class=&quot;action-button&quot;&gt;[[Suivant|conclure]]&lt;/button&gt;</tw-passagedata>
@@ -256,12 +257,12 @@ Il ne manquerait plus que vous soyez un homme, dans la cinquantaine, et vous voi
 
 &lt;span class=&quot;larger&quot;&gt;Vous votez donc souvent comme les Verts.&lt;/span&gt;
 
-Vos intérêts sont peu défendus dans les couloirs de la Berne fédérale. Les écologistes sont dix à siéger sous la coupole. La cote de popularité du parti est en dents-de-scie et plutôt, avec une tendance à la baisse depuis les dernières élections. Côté égalité des sexes, le parti atteint la parité parfaite. Ses élu-es sont plutôt jeunes, 60% ont moins de 54 ans.
+Vos intérêts sont peu défendus dans les couloirs de la Berne fédérale. Les écologistes sont dix à siéger sous la coupole. La cote de popularité du parti est en dents-de-scie et plutôt, avec une tendance à la baisse depuis les dernières élections. Côté égalité des sexes, le parti atteint la parité parfaite. Ses élu-e-s sont plutôt jeunes, 60% ont moins de 54 ans.
 
 &lt;button class=&quot;action-button&quot;&gt;[[Suivant|conclure]]&lt;/button&gt;</tw-passagedata>
 <tw-passagedata pid="14" name="autres" tags="" position="828,668">(set: $appartenance to &quot;autres&quot;)
 
-&lt;span class=&quot;larger&quot;&gt;Vous votez donc souvent comme des partis minoritaires ou ne votez comme aucun parti.&lt;/span&gt;
+&lt;span class=&quot;larger&quot;&gt;Vous votez donc souvent comme des partis minoritaires ou ne votez comme aucun parti. Vos intérêts au National sont donc peu représentés. Ce sont 23 élu-e-s, éclatés entre des partis aux idées parfois opposées, qui vous défendent.  &lt;/span&gt;
 
 &lt;button class=&quot;action-button&quot;&gt;[[Suivant|conclure]]&lt;/button&gt;</tw-passagedata>
 <tw-passagedata pid="15" name="parlementaires" tags="" position="301,2">&lt;span class=&quot;largerlarger&quot;&gt; &lt;strong&gt;Le Conseil national...&lt;/strong&gt;&lt;/span&gt;
@@ -270,7 +271,7 @@ Définition: &lt;em&gt;Chambre du Parlement &lt;span class=&quot;envaleur&quot;&
 
 Ressembler, dans sa composition au moins, au peuple suisse, tel est le rôle du Conseil national. Mais qui représente qui exactement ? Qui sont ces 200 parlementaires qui siègent sous la coupole? Et surtout, vous reconnaissez-vous parmi ces élus ?  
 
-Testez votre représentativité et apprenez-en plus sur ces politiciens-nnes que vous élisez et qui règlementent chaque aspect de vos vies.
+Testez votre représentativité et apprenez-en plus sur ces politicien-ne-s que vous élisez et qui règlementent chaque aspect de vos vies.
 
 
 &lt;button class=&quot;action-button&quot;&gt;[[Suivant|Testez]]&lt;/button&gt;
@@ -281,75 +282,77 @@ Testez votre représentativité et apprenez-en plus sur ces politiciens-nnes que
 
 &lt;span class=&quot;larger&quot;&gt;La jeunesse, la relève de demain! &lt;/span&gt;
 
-Moins de 36 ans ? Vous voilà dans une &lt;strong&gt;tranche d’âge sous-représentée&lt;/strong&gt; au Parlement. Sur les 200 parlementaires du National, 14 seulement ont le même âge que vous. De quoi vous motiver à démarrer une brillante carrière politique !
+Moins de 36 ans? Vous voilà dans une &lt;strong&gt;tranche d’âge sous-représentée&lt;/strong&gt; au Parlement. Sur les 200 parlementaires du National, 14 seulement ont le même âge que vous. De quoi vous motiver à démarrer une brillante carrière politique.
 
 ----
 Parmi les catégories professionnelles suivantes, à laquelle appartenez-vous?
 
-* [[entrepreneur-euse/secteur privé]]
-* [[domaine juridique]]
-* [[enseignement]]
-* [[médecin]]
 * [[technique et informatique]]
-* [[médias, communication, RP]]
-* [[ouvrier-ère, artisan-e]] 
-* [[activité politique]]
-* [[professeur-e d’université]]
-* [[agriculteur-trice]]
 * [[retraité-e]]
-* [[étudiant-e]]
 * [[sans occupation]]
+* [[professeur-e d’université]]
+* [[ouvrier-ère, artisan-e]] 
+* [[médias, communication, RP]]
+* [[médecin]]
+* [[domaine juridique]]
+* [[étudiant-e]]
+* [[entrepreneur-euse/secteur privé]]
+* [[enseignement]]
 * [[autre]]
+* [[agriculteur-trice]]
+* [[activité politique]]
+
 
 </tw-passagedata>
 <tw-passagedata pid="17" name="36-53 ans" tags="" position="445,355">(set: $age to &quot;entre 36 et 53 ans&quot;)
 
 &lt;span class=&quot;larger&quot;&gt; L&#39;âge de la sagesse, une belle période...&lt;/span&gt;
 
-Cela est surtout vrai à Berne, où près de la moitié des élus se situent dans cette catégorie. La jeunesse peut en effet aller se rhabiller. &lt;strong&gt;La moyenne d’âge au Parlement est de 50 ans&lt;/strong&gt;. 
+Cela est surtout vrai à Berne, où près de la moitié des élu-e-s se situent dans cette catégorie. La jeunesse peut en effet aller se rhabiller. &lt;strong&gt;La moyenne d’âge au Parlement est de 50 ans&lt;/strong&gt;. 
 
 ----
 Parmi les catégories professionnelles suivantes, à laquelle appartenez-vous?
 
-* [[entrepreneur-euse/secteur privé]]
-* [[domaine juridique]]
-* [[enseignement]]
-* [[médecin]]
 * [[technique et informatique]]
-* [[médias, communication, RP]]
-* [[ouvrier-ère, artisan-e]] 
-* [[activité politique]]
-* [[professeur-e d’université]]
-* [[agriculteur-trice]]
 * [[retraité-e]]
-* [[étudiant-e]]
 * [[sans occupation]]
+* [[professeur-e d’université]]
+* [[ouvrier-ère, artisan-e]] 
+* [[médias, communication, RP]]
+* [[médecin]]
+* [[domaine juridique]]
+* [[étudiant-e]]
+* [[entrepreneur-euse/secteur privé]]
+* [[enseignement]]
 * [[autre]]
+* [[agriculteur-trice]]
+* [[activité politique]]
 
 </tw-passagedata>
 <tw-passagedata pid="18" name="54-71 ans" tags="" position="584,353">(set: $age to &quot;entre 54 et 71 ans&quot;)
 
 &lt;span class=&quot;larger&quot;&gt;Le temps file, mais la bonne humeur reste!&lt;/span&gt;
 
-Vous voilà plutôt bien représenté-e à Berne ! Comme vous, &lt;strong&gt;88 élus sur 200 ont plus de 54 ans&lt;/strong&gt;. Ne vous faites donc pas de soucis pour vos retraites, les miliciens-nnes devraient se sentir suffisamment concernés-es pour trouver une solution. 
+Vous voilà plutôt bien représenté-e à Berne! Comme vous, &lt;strong&gt;88 élus sur 200 ont plus de 54 ans&lt;/strong&gt;. Ne vous faites donc pas de soucis pour vos retraites, les milicien-ne-s devraient se sentir suffisamment concernés-es pour trouver une solution. 
 
 ----
 Parmi les catégories professionnelles suivantes, à laquelle appartenez-vous?
 
-* [[entrepreneur-euse/secteur privé]]
-* [[domaine juridique]]
-* [[enseignement]]
-* [[médecin]]
 * [[technique et informatique]]
-* [[médias, communication, RP]]
-* [[ouvrier-ère, artisan-e]] 
-* [[activité politique]]
-* [[professeur-e d’université]]
-* [[agriculteur-trice]]
 * [[retraité-e]]
-* [[étudiant-e]]
 * [[sans occupation]]
+* [[professeur-e d’université]]
+* [[ouvrier-ère, artisan-e]] 
+* [[médias, communication, RP]]
+* [[médecin]]
+* [[domaine juridique]]
+* [[étudiant-e]]
+* [[entrepreneur-euse/secteur privé]]
+* [[enseignement]]
 * [[autre]]
+* [[agriculteur-trice]]
+* [[activité politique]]
+
 
 </tw-passagedata>
 <tw-passagedata pid="19" name="Titre" tags="" position="458,0">
@@ -364,25 +367,26 @@ Parmi les catégories professionnelles suivantes, à laquelle appartenez-vous?
 
 &lt;span class=&quot;larger&quot;&gt;La plus haute catégorie, quelle classe!&lt;/span&gt;
 
-Vous avez plus de 72 ans et vous lisez cet article ? Génial ! Ce qui est moins génial : votre taux de représentativité au Parlement. Car sur 200 élus-es, &lt;strong&gt;un seul appartient à votre génération&lt;/strong&gt;. Vous êtes plutôt UDC ? Tant mieux. À 74 ans, l&#39;agrarien Maximilian Reimann est LE doyen du Parlement.
+Vous avez plus de 72 ans et vous lisez cet article? Génial! Ce qui est moins génial: votre taux de représentativité au Parlement. Car sur 200 élu-e-s, &lt;strong&gt;un seul appartient à votre génération&lt;/strong&gt;. Vous êtes plutôt UDC ? Tant mieux. À 74 ans, l&#39;agrarien Maximilian Reimann est LE doyen du Parlement.
 
 ---
 Parmi les catégories professionnelles suivantes, à laquelle appartenez-vous?
 
-* [[entrepreneur-euse/secteur privé]]
-* [[domaine juridique]]
-* [[enseignement]]
-* [[médecin]]
 * [[technique et informatique]]
-* [[médias, communication, RP]]
-* [[ouvrier-ère, artisan-e]] 
-* [[activité politique]]
-* [[professeur-e d’université]]
-* [[agriculteur-trice]]
 * [[retraité-e]]
-* [[étudiant-e]]
 * [[sans occupation]]
+* [[professeur-e d’université]]
+* [[ouvrier-ère, artisan-e]] 
+* [[médias, communication, RP]]
+* [[médecin]]
+* [[domaine juridique]]
+* [[étudiant-e]]
+* [[entrepreneur-euse/secteur privé]]
+* [[enseignement]]
 * [[autre]]
+* [[agriculteur-trice]]
+* [[activité politique]]
+
 
 </tw-passagedata>
 <tw-passagedata pid="21" name="domaine juridique" tags="" position="145,505">(set: $profession to &quot;domaine juridique&quot;) 
@@ -390,15 +394,15 @@ Parmi les catégories professionnelles suivantes, à laquelle appartenez-vous?
 
 &lt;iframe width=&quot;600&quot; height=&quot;371&quot; style=&quot;border:1px solid lightgrey;&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/1x593UZb6rs_yhhj1qVC_jjeEXYUIi6ewkXVajsxZgNM/pubchart?oid=1642279062&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
 
-A l&#39;exception des Verts, on trouve des métiers liés au droit dans &lt;span class=&quot;envaleur&quot;&gt;toutes les autres formations gouvernementales&lt;/span&gt;. Juste après les entrepreneurs-euses et acteurs-trices du secteur privé, c&#39;est la catégorie la plus répandue.
+A l&#39;exception des Verts, on trouve des métiers liés au droit dans &lt;span class=&quot;envaleur&quot;&gt;toutes les autres formations gouvernementales&lt;/span&gt;. Juste après les entrepreneur-euse-s et acteur-trice-s du secteur privé, c&#39;est la catégorie la plus répandue.
 
 ----
 Parlons un peu de politique. De quel parti vous sentez-vous le plus proche?
 
+* [[UDC]] Union démocratique du centre
+* [[PS]] Parti socialiste
 * [[PLR]] Parti libéral-radical
 * [[PDC]] Parti démocrate-chrétien 
-* [[PS]] Parti socialiste
-* [[UDC]] Union démocratique du centre
 * [[Les Verts]]
 * [[autres]]</tw-passagedata>
 <tw-passagedata pid="22" name="enseignement" tags="" position="295,505">(set: $profession to &quot;enseignement&quot;)
@@ -407,15 +411,15 @@ Parlons un peu de politique. De quel parti vous sentez-vous le plus proche?
 
 &lt;iframe width=&quot;600&quot; height=&quot;371&quot; style=&quot;border:1px solid lightgrey;&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/1x593UZb6rs_yhhj1qVC_jjeEXYUIi6ewkXVajsxZgNM/pubchart?oid=1386685890&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
 
-On compte une dizaine d&#39;enseignants-tes à Berne, soit 4.5% du Parlement. On peut donc dire que la branche est sur-représentée, sachant que 1.46% de la population en Suisse exerce ce métier.
+On compte une dizaine d&#39;enseignant-te-s à Berne, soit 4.5% du Parlement. On peut donc dire que la branche est sur-représentée, sachant que 1.46% de la population en Suisse exerce ce métier.
 
 ----
 Parlons un peu de politique. De quel parti vous sentez-vous le plus proche?
 
+* [[UDC]] Union démocratique du centre
+* [[PS]] Parti socialiste
 * [[PLR]] Parti libéral-radical
 * [[PDC]] Parti démocrate-chrétien 
-* [[PS]] Parti socialiste
-* [[UDC]] Union démocratique du centre
 * [[Les Verts]]
 * [[autres]]</tw-passagedata>
 <tw-passagedata pid="23" name="technique et informatique" tags="" position="420,504">(set: $profession to &quot;technique et informatique&quot;)
@@ -429,10 +433,10 @@ Une répartition équitable entre les formations, malgré l&#39;absence de membr
 ----
 Parlons un peu de politique. De quel parti vous sentez-vous le plus proche?
 
+* [[UDC]] Union démocratique du centre
+* [[PS]] Parti socialiste
 * [[PLR]] Parti libéral-radical
 * [[PDC]] Parti démocrate-chrétien 
-* [[PS]] Parti socialiste
-* [[UDC]] Union démocratique du centre
 * [[Les Verts]]
 * [[autres]]</tw-passagedata>
 <tw-passagedata pid="24" name="médias, communication, RP" tags="" position="545,501">(set: $profession to &quot;médias, communication, RP&quot;)
@@ -441,15 +445,15 @@ Parlons un peu de politique. De quel parti vous sentez-vous le plus proche?
 
 &lt;iframe width=&quot;600&quot; height=&quot;371&quot; style=&quot;border:1px solid lightgrey;&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/1x593UZb6rs_yhhj1qVC_jjeEXYUIi6ewkXVajsxZgNM/pubchart?oid=1280084882&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
 
-Avec &lt;span class=&quot;envaleur&quot;&gt;12 professionnels-les&lt;/span&gt; dans ce secteur, on recense ici plus de 5% du total des élus-es. 
+Avec &lt;span class=&quot;envaleur&quot;&gt;12 professionnel-le-s&lt;/span&gt; dans ce secteur, on recense ici plus de 5% du total des élu-e-s. 
 
 ----
 Parlons un peu de politique. De quel parti vous sentez-vous le plus proche?
 
+* [[UDC]] Union démocratique du centre
+* [[PS]] Parti socialiste
 * [[PLR]] Parti libéral-radical
 * [[PDC]] Parti démocrate-chrétien 
-* [[PS]] Parti socialiste
-* [[UDC]] Union démocratique du centre
 * [[Les Verts]]
 * [[autres]]</tw-passagedata>
 <tw-passagedata pid="25" name="activité politique" tags="" position="670,497">(set: $profession to &quot;activité politique&quot;)
@@ -458,15 +462,15 @@ Parlons un peu de politique. De quel parti vous sentez-vous le plus proche?
 
 &lt;iframe width=&quot;600&quot; height=&quot;371&quot; style=&quot;border:1px solid lightgrey;&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/1x593UZb6rs_yhhj1qVC_jjeEXYUIi6ewkXVajsxZgNM/pubchart?oid=964073735&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
 
-Les politiciens-nnes professionnels-lles sont nombreux-ses. Il s&#39;agit du &lt;span class=&quot;envaleur&quot;&gt;troisième corps de métier&lt;/span&gt; présent au Parlement. Le parti socialiste compte le plus de membres impliqués-es professionnellement en politique: 10 au total.
+Les politicien-ne-s professionnel-le-s sont nombreux-ses. Il s&#39;agit du &lt;span class=&quot;envaleur&quot;&gt;troisième corps de métier&lt;/span&gt; présent au Parlement. Le parti socialiste compte le plus de membres impliqués-es professionnellement en politique: 10 au total.
 
 ----
 Parlons un peu de politique. De quel parti vous sentez-vous le plus proche?
 
+* [[UDC]] Union démocratique du centre
+* [[PS]] Parti socialiste
 * [[PLR]] Parti libéral-radical
 * [[PDC]] Parti démocrate-chrétien 
-* [[PS]] Parti socialiste
-* [[UDC]] Union démocratique du centre
 * [[Les Verts]]
 * [[autres]]</tw-passagedata>
 <tw-passagedata pid="26" name="entrepreneur-euse/secteur privé" tags="" position="20,502">(set: $profession to &quot;entrepreneur-euse/secteur privé&quot;)
@@ -475,15 +479,14 @@ Parlons un peu de politique. De quel parti vous sentez-vous le plus proche?
 
 &lt;iframe width=&quot;600&quot; height=&quot;371&quot; style=&quot;border:1px solid lightgrey;&quot;scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/1x593UZb6rs_yhhj1qVC_jjeEXYUIi6ewkXVajsxZgNM/pubchart?oid=553681277&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
 
-L&#39;esprit d&#39;entreprise règne sous la Coupole. Sans surprise, c&#39;est à droite de l&#39;échiquier que la tendance est la plus marquée. &lt;span class=&quot;envaleur&quot;&gt;27 UDC et 14 PLR&lt;/span&gt; sont actifs-ves dans ce secteur.
+L&#39;esprit d&#39;entreprise règne sous la Coupole. Sans surprise, c&#39;est à droite de l&#39;échiquier que la tendance est la plus marquée. &lt;span class=&quot;envaleur&quot;&gt;27 UDC et 14 PLR&lt;/span&gt; sont actif-ve-s dans ce secteur.
 
 ----
 Parlons un peu de politique. De quel parti vous sentez-vous le plus proche?
-
+* [[UDC]] Union démocratique du centre
+* [[PS]] Parti socialiste
 * [[PLR]] Parti libéral-radical
 * [[PDC]] Parti démocrate-chrétien 
-* [[PS]] Parti socialiste
-* [[UDC]] Union démocratique du centre
 * [[Les Verts]]
 * [[autres]]</tw-passagedata>
 <tw-passagedata pid="27" name="ouvrier-ère, artisan-e" tags="" position="1182,520">(set: $profession to &quot;ouvrier-ère, artisan-e&quot;)
@@ -492,15 +495,15 @@ Parlons un peu de politique. De quel parti vous sentez-vous le plus proche?
 
 &lt;iframe width=&quot;600&quot; height=&quot;371&quot; style=&quot;border:1px solid lightgrey;&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/1x593UZb6rs_yhhj1qVC_jjeEXYUIi6ewkXVajsxZgNM/pubchart?oid=2093597696&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
 
-Les métiers de cette catégorie sont quasiment absents de la Chambre basse. &lt;span class=&quot;envaleur&quot;&gt;Seulement 3 parlementaires&lt;/span&gt; sont issus-es de ce domaine d&#39;activités.
+Les métiers de cette catégorie sont quasiment absents de la Chambre basse. &lt;span class=&quot;envaleur&quot;&gt;Seulement 3 parlementaires&lt;/span&gt; sont issu-e-s de ce domaine d&#39;activités.
 
 ----
 Parlons un peu de politique. De quel parti vous sentez-vous le plus proche?
 
+* [[UDC]] Union démocratique du centre
+* [[PS]] Parti socialiste
 * [[PLR]] Parti libéral-radical
 * [[PDC]] Parti démocrate-chrétien 
-* [[PS]] Parti socialiste
-* [[UDC]] Union démocratique du centre
 * [[Les Verts]]
 * [[autres]]</tw-passagedata>
 <tw-passagedata pid="28" name="professeur-e d’université" tags="" position="1057,515">(set: $profession to &quot;professeur-e d&#39;université&quot;)
@@ -509,15 +512,15 @@ Parlons un peu de politique. De quel parti vous sentez-vous le plus proche?
 
 &lt;iframe width=&quot;600&quot; height=&quot;371&quot; style=&quot;border:1px solid lightgrey;&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/1x593UZb6rs_yhhj1qVC_jjeEXYUIi6ewkXVajsxZgNM/pubchart?oid=1995026931&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
 
-Au nombre de 14, les professeurs-es d&#39;université sont &lt;span class=&quot;envaleur&quot;&gt;beaucoup plus présents-es au Conseil national (7%) que dans la population (0.37%)&lt;/span&gt;. Un tiers d&#39;entre eux/elles fréquentent les rangs du Parti socialiste.
+Au nombre de 14, les professeur-e-s d&#39;université sont &lt;span class=&quot;envaleur&quot;&gt;beaucoup plus présent-e-s au Conseil national (7%) que dans la population (0.37%)&lt;/span&gt;. Un tiers d&#39;entre eux/elles fréquentent les rangs du Parti socialiste.
 
 ----
 Parlons un peu de politique. De quel parti vous sentez-vous le plus proche?
 
+* [[UDC]] Union démocratique du centre
+* [[PS]] Parti socialiste
 * [[PLR]] Parti libéral-radical
 * [[PDC]] Parti démocrate-chrétien 
-* [[PS]] Parti socialiste
-* [[UDC]] Union démocratique du centre
 * [[Les Verts]]
 * [[autres]]</tw-passagedata>
 <tw-passagedata pid="29" name="agriculteur-trice" tags="" position="807,507">(set: $profession to &quot;agriculteur-trice&quot;)
@@ -526,15 +529,15 @@ Parlons un peu de politique. De quel parti vous sentez-vous le plus proche?
 
 &lt;iframe width=&quot;600&quot; height=&quot;371&quot; style=&quot;border:1px solid lightgrey;&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/1x593UZb6rs_yhhj1qVC_jjeEXYUIi6ewkXVajsxZgNM/pubchart?oid=60810884&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
 
-Les &lt;span class=&quot;envaleur&quot;&gt;origines&lt;/span&gt; du parti agrarien se ressentent encore fortement. 
+Les &lt;span class=&quot;envaleur&quot;&gt;origines&lt;/span&gt; agrariennes de l&#39;UDC se ressentent encore fortement, avec près de 70% des agriculteurs issus de ce parti. 
 
 ----
 Parlons un peu de politique. De quel parti vous sentez-vous le plus proche?
 
+* [[UDC]] Union démocratique du centre
+* [[PS]] Parti socialiste
 * [[PLR]] Parti libéral-radical
 * [[PDC]] Parti démocrate-chrétien 
-* [[PS]] Parti socialiste
-* [[UDC]] Union démocratique du centre
 * [[Les Verts]]
 * [[autres]]</tw-passagedata>
 <tw-passagedata pid="30" name="retraité-e" tags="" position="1433,506">(set: $profession to &quot;retraité-e&quot;)
@@ -565,10 +568,10 @@ Parlons un peu de politique. De quel parti vous sentez-vous le plus proche?
 ----
 Parlons un peu de politique. De quel parti vous sentez-vous le plus proche?
 
+* [[UDC]] Union démocratique du centre
+* [[PS]] Parti socialiste
 * [[PLR]] Parti libéral-radical
 * [[PDC]] Parti démocrate-chrétien 
-* [[PS]] Parti socialiste
-* [[UDC]] Union démocratique du centre
 * [[Les Verts]]
 * [[autres]]</tw-passagedata>
 <tw-passagedata pid="32" name="conclure" tags="" position="460,803">
@@ -580,7 +583,7 @@ L’âge moyen des parlementaires n’a lui, par contre, que très peu varié. D
 
 &lt;img src=&quot;http://www.chdata123.com/eu/ch/kr/schweiz-nazi-taktik-bankgeheimnis-d/028-bundeshaus-Bern.jpg&quot; width=&quot;600&quot; height=&quot;360&quot; align=&quot;middle&quot; alt=&quot;palais&quot;&gt;
 
-La prochaine élection se déroulera certes en 2019. Mais une campagne, ça se prépare à l&#39;avance. À bon entendeur...
+La prochaine élection se déroulera en 2019. Mais une campagne, ça se prépare à l&#39;avance. À bon entendeur...
 
 
 
